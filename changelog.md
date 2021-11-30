@@ -12,4 +12,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add class provider `WalletWarmUpServiceProvider`.
 
 [Unreleased]: https://github.com/bavix/laravel-wallet-warmup/compare/1.0.0...develop
-[1.0.0]: https://github.com/bavix/laravel-wallet-warmup/compare/1ff4b955893c8ae42aaf3b4b6620b0cbc2442246
+[1.0.0]: https://github.com/bavix/laravel-wallet-warmup/commit/3fad9a9e1ed58f3452d7ed1a6c52e0163110a57e
