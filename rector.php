@@ -19,7 +19,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     // Define what rule sets will be applied
     $containerConfigurator->import(LaravelSetList::LARAVEL_60);
     $containerConfigurator->import(SetList::DEAD_CODE);
-    $containerConfigurator->import(SetList::PHP_74);
+    $containerConfigurator->import(SetList::PHP_80);
 
     // get services (needed for register a single rule)
     $services = $containerConfigurator->services();
