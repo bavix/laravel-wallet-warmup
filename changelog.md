@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [2.1.0] - 2022-05-02
-### Added support laravel-wallet ^9.0
+### Added
+- add support laravel-wallet ^9.0
 
 ## [2.0.0] - 2022-02-16
 ### Added
