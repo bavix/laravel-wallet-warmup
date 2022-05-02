@@ -23,7 +23,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "bavix/laravel-wallet": "^8.0"
+    "bavix/laravel-wallet": "^8.0|^9.0"
   },
   "require-dev": {
     "ergebnis/phpstan-rules": "^1.0",
