@@ -23,7 +23,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "bavix/laravel-wallet": "^8.0|^9.0"
+    "bavix/laravel-wallet": "^9.0"
   },
   "require-dev": {
     "ergebnis/phpstan-rules": "^1.0",
@@ -31,8 +31,8 @@
     "orchestra/testbench": "^7.0",
     "phpstan/phpstan": "^1.2",
     "phpunit/phpunit": "^9.5",
-    "rector/rector": "^0.12.5",
-    "symplify/easy-coding-standard": "^10.0",
+    "rector/rector": "^0.14",
+    "symplify/easy-coding-standard": "^11.0",
     "vimeo/psalm": "^4.13"
   },
   "autoload": {
@@ -66,6 +66,9 @@
     "rector-fix": "@php vendor/bin/rector process"
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "infection/extension-installer": true
+    }
   }
 }

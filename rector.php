@@ -2,27 +2,25 @@
 
 declare(strict_types=1);
 
-use Rector\Core\Configuration\Option;
+use Rector\Config\RectorConfig;
 use Rector\Laravel\Set\LaravelSetList;
 use Rector\Php74\Rector\Property\TypedPropertyRector;
 use Rector\Set\ValueObject\SetList;
-use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
-return static function (ContainerConfigurator $containerConfigurator): void {
-    // get parameters
-    $parameters = $containerConfigurator->parameters();
-    $parameters->set(Option::PATHS, [
+return static function (RectorConfig $config): void {
+    $config->parallel();
+    $config->paths([
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]);
 
     // Define what rule sets will be applied
-    $containerConfigurator->import(LaravelSetList::LARAVEL_60);
-    $containerConfigurator->import(SetList::DEAD_CODE);
-    $containerConfigurator->import(SetList::PHP_80);
+    $config->import(LaravelSetList::LARAVEL_90);
+    $config->import(SetList::DEAD_CODE);
+    $config->import(SetList::PHP_80);
 
     // get services (needed for register a single rule)
-    $services = $containerConfigurator->services();
+    $services = $config->services();
 
     // register a single rule
     $services->set(TypedPropertyRector::class);
