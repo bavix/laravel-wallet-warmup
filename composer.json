@@ -22,10 +22,11 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "bavix/laravel-wallet": "^9.0|^10.0"
+    "php": "^8.1",
+    "bavix/laravel-wallet": "^10.0"
   },
   "require-dev": {
+    "driftingly/rector-laravel": "^0.21",
     "ergebnis/phpstan-rules": "^1.0",
     "infection/infection": "^0.27",
     "orchestra/testbench": "^8.5",
