@@ -22,18 +22,18 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "bavix/laravel-wallet": "^9.0|^10.0"
+    "php": "^8.1",
+    "bavix/laravel-wallet": "^10.0"
   },
   "require-dev": {
+    "driftingly/rector-laravel": "^0.21",
     "ergebnis/phpstan-rules": "^1.0",
-    "infection/infection": "^0.26",
-    "orchestra/testbench": "^7.0",
-    "phpstan/phpstan": "^1.2",
-    "phpunit/phpunit": "^9.5",
-    "rector/rector": "^0.14",
-    "symplify/easy-coding-standard": "^11.0",
-    "vimeo/psalm": "^4.13"
+    "infection/infection": "^0.27",
+    "orchestra/testbench": "^8.5",
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^10.2",
+    "rector/rector": "^0.17",
+    "symplify/easy-coding-standard": "^11.5"
   },
   "autoload": {
     "psr-4": {
