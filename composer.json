@@ -26,7 +26,7 @@
     "bavix/laravel-wallet": "^10.0"
   },
   "require-dev": {
-    "driftingly/rector-laravel": "^0.25",
+    "driftingly/rector-laravel": "^0.26",
     "ergebnis/phpstan-rules": "^1.0",
     "infection/infection": "^0.27",
     "orchestra/testbench": "^8.5",
