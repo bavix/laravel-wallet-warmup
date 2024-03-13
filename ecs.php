@@ -2,37 +2,30 @@
 
 declare(strict_types=1);
 
-use PhpCsFixer\Fixer\ArrayNotation\ArraySyntaxFixer;
-use PhpCsFixer\Fixer\Phpdoc\PhpdocToCommentFixer;
-use PhpCsFixer\Fixer\PhpUnit\PhpUnitTestClassRequiresCoversFixer;
-use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
+use PhpCsFixer\Fixer\Phpdoc\GeneralPhpdocAnnotationRemoveFixer;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 use Symplify\EasyCodingStandard\ValueObject\Set\SetList;
 
 return static function (ECSConfig $config): void {
-    $config->parallel();
-    $services = $config->services();
-    $services->set(ArraySyntaxFixer::class)
-        ->call('configure', [[
-            'syntax' => 'short',
-        ]]);
-
-    $services->set(DeclareStrictTypesFixer::class);
-
     $config->paths([
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]);
 
     $config->skip([
-        PhpdocToCommentFixer::class,
-        PhpUnitTestClassRequiresCoversFixer::class,
+        GeneralPhpdocAnnotationRemoveFixer::class,
     ]);
 
-    $config->import(SetList::CLEAN_CODE);
-    $config->import(SetList::PSR_12);
-    $config->import(SetList::CONTROL_STRUCTURES);
-    $config->import(SetList::NAMESPACES);
-    $config->import(SetList::STRICT);
-    $config->import(SetList::PHPUNIT);
+    $config->sets([
+        SetList::CLEAN_CODE,
+        SetList::SYMPLIFY,
+        SetList::ARRAY,
+        SetList::COMMON,
+        SetList::PSR_12,
+        SetList::CONTROL_STRUCTURES,
+        SetList::NAMESPACES,
+        SetList::STRICT,
+        SetList::PHPUNIT,
+        SetList::LARAVEL,
+    ]);
 };
