@@ -11,6 +11,7 @@ final class WarmUpTest extends TestCase
 {
     public function testSimple(): void
     {
-        $this->artisan('wallet:warm-up')->assertSuccessful();
+        $this->artisan('wallet:warm-up')
+            ->assertSuccessful();
     }
 }
