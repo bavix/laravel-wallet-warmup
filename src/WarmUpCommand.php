@@ -10,6 +10,7 @@ use Illuminate\Console\Command;
 final class WarmUpCommand extends Command
 {
     protected $signature = 'wallet:warm-up';
+
     protected $description = 'Warning! Makes refreshBalance for all wallets.';
 
     public function handle(Wallet $wallet): void
