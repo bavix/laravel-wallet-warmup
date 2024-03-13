@@ -51,8 +51,8 @@ jobs:
 
       - name: Run test suite
         id: unit-run
-        run: composer unit
+        run: composer parabench
 
-      - name: Run test suite
+      - name: Run mutation test suite
         id: infect-run
         run: composer infect
