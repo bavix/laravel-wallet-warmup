@@ -1,5 +1,26 @@
 # Changelog
 
+## 4.0.0 - 2026-04-18
+
+### What's Changed
+
+* Update phpunit/phpunit requirement from ^10.5 to ^11.0 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/61
+* Bump bavix/.github from 0.2.4 to 0.2.5 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/62
+* Bump bavix/.github from 0.2.5 to 0.3.0 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/63
+* Bump bavix/.github from 0.3.0 to 0.3.2 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/64
+* Bump bavix/.github from 0.3.2 to 0.3.3 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/65
+* Bump bavix/.github from 0.3.3 to 0.4.0 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/68
+* Bump actions/stale from 9 to 10 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/67
+* Bump actions/checkout from 4 to 5 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/66
+* Bump actions/checkout from 5 to 6 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/69
+* Bump actions/cache from 4 to 5 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/71
+* Bump bavix/.github/.github/workflows/changelog.yml from 0.4.0 to 0.4.1 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/70
+* Bump crazy-max/ghaction-import-gpg from 6 to 7 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/72
+* Bump bavix/.github/.github/workflows/changelog.yml from 0.4.1 to 0.5.0 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/laravel-wallet-warmup/pull/73
+* add support laravel-wallet 12 by [@rez1dent3](https://github.com/rez1dent3) in https://github.com/bavix/laravel-wallet-warmup/pull/74
+
+**Full Changelog**: https://github.com/bavix/laravel-wallet-warmup/compare/3.0.1...4.0.0
+
 ## 3.0.1 - 2024-03-14
 
 ### What's Changed
